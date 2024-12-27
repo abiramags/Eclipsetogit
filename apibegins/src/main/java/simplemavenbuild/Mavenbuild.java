@@ -6,18 +6,21 @@ import org.openqa.selenium.WebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class mavenbuild {
+public class Mavenbuild {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		  // System Property for Chrome Driver   
-       // System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");  
-		WebDriver driver = WebDriverManager.chromedriver().create();
-             // Instantiate a ChromeDriver class.     
+       // System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe"); 
+		// Instantiate a ChromeDriver class.     
+		//WebDriverManager.chromedriver().setup();
         //WebDriver driver=new ChromeDriver();  
+		WebDriver driver = WebDriverManager.chromedriver().create();
+             
           
            // Launch Website  
         driver.navigate().to("http://www.javatpoint.com/");  
+        //driver.get("www.google.com");
           
          //Maximize the browser  
           driver.manage().window().maximize();  

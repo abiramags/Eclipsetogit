@@ -9,7 +9,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class httpurlconnectionexample {
+public class Httpurlconnectionexample {
 
 	public void getmethodexample() throws IOException
 	{
@@ -129,7 +129,7 @@ public class httpurlconnectionexample {
 	}
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		httpurlconnectionexample htp = new httpurlconnectionexample();
+		Httpurlconnectionexample htp = new Httpurlconnectionexample();
 		/*htp.getmethodexample();
 		htp.postmethodexample();
 		htp.putmethodexample();*/
